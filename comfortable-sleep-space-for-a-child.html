@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Create a Comfortable Sleep Space for a Child | Cloud & Rest</title>
+  <meta name="description" content="Learn how to create a comfortable sleep space for a child by considering the bed, mattress, room layout, lighting and everyday bedroom routines.">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    :root {
+      --primary: #4F46E5;
+      --primary-dark: #1e1b4b;
+      --text: #1f2937;
+      --muted: #64748b;
+      --soft: #f8faff;
+      --border: #e0e7ff;
+      --accent: #eef2ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    .article-page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px 70px;
+    }
+
+    .article-hero {
+      padding: 78px 20px 58px;
+      text-align: center;
+      background: linear-gradient(180deg, #f8faff 0%, #fff 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .article-label {
+      display: inline-block;
+      margin-bottom: 15px;
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .article-hero h1 {
+      max-width: 850px;
+      margin: 0 auto 18px;
+      color: var(--primary-dark);
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.12;
+      letter-spacing: -1px;
+    }
+
+    .article-hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .article-content {
+      max-width: 850px;
+      margin: 0 auto;
+      padding-top: 55px;
+    }
+
+    .quick-answer {
+      margin-bottom: 48px;
+      padding: 27px 30px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .quick-answer h2 {
+      margin: 0 0 10px;
+      color: var(--primary-dark);
+      font-size: 22px;
+    }
+
+    .article-content h2 {
+      margin: 48px 0 17px;
+      color: var(--primary-dark);
+      font-size: 30px;
+      line-height: 1.25;
+    }
+
+    .article-content h3 {
+      margin: 30px 0 10px;
+      color: var(--primary-dark);
+      font-size: 21px;
+    }
+
+    .article-content p {
+      margin: 0 0 18px;
+    }
+
+    .article-content ul {
+      margin: 18px 0 25px;
+      padding-left: 23px;
+    }
+
+    .article-content li {
+      margin-bottom: 10px;
+    }
+
+    .step-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin: 30px 0;
+    }
+
+    .step-card {
+      padding: 24px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .step-card strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--primary-dark);
+    }
+
+    .product-card {
+      margin: 35px 0;
+      padding: 27px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .product-card h3 {
+      margin-top: 0;
+      color: var(--primary-dark);
+    }
+
+    .product-card a {
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .cta-box {
+      margin: 48px 0;
+      padding: 34px;
+      text-align: center;
+      background: var(--primary-dark);
+      border-radius: 16px;
+      color: #fff;
+    }
+
+    .cta-box h2 {
+      margin: 0 0 12px;
+      color: #fff;
+      font-size: 28px;
+    }
+
+    .cta-box p {
+      max-width: 650px;
+      margin: 0 auto 22px;
+      color: #dbe3ff;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 13px 23px;
+      border-radius: 8px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .related-links {
+      margin-top: 55px;
+      padding-top: 30px;
+      border-top: 1px solid var(--border);
+    }
+
+    .related-links a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+      .article-page {
+        padding: 0 16px 50px;
+      }
+
+      .article-hero {
+        padding: 55px 12px 42px;
+      }
+
+      .article-content {
+        padding-top: 38px;
+      }
+
+      .step-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-answer,
+      .step-card,
+      .product-card,
+      .cta-box {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <main class="article-page">
+
+    <section class="article-hero">
+      <span class="article-label">Kids Beds Guide</span>
+      <h1>How to Create a Comfortable Sleep Space for a Child</h1>
+      <p>A comfortable children's bedroom is about more than choosing a bed. The mattress, layout, lighting and everyday environment can all influence how practical and relaxing the room feels.</p>
+    </section>
+
+    <article class="article-content">
+
+      <div class="quick-answer">
+        <h2>Quick answer</h2>
+        <p>Start with a suitable bed and mattress, then create a calm and practical environment around them. Keep the sleeping area comfortable, leave enough room to move and make the bedroom easy for the child to use every day.</p>
+      </div>
+
+      <h2>Start with the right bed</h2>
+
+      <p>The bed is naturally the main part of a child's sleeping space. It needs to fit the room properly while providing a suitable sleeping surface for the child.</p>
+
+      <p>Think about the child's current needs as well as how the bedroom may change over time. A design that works today should ideally remain practical as the child grows.</p>
+
+      <h2>Choose the mattress carefully</h2>
+
+      <p>The mattress is just as important as the bed frame. Consider the appropriate mattress size for the bed and make sure the combination is suitable for the intended use.</p>
+
+      <p>It is also worth checking the manufacturer's requirements whenever a particular children's bed has specific mattress compatibility considerations.</p>
+
+      <div class="step-grid">
+        <div class="step-card">
+          <span class="step-number">1</span>
+          <strong>Choose the bed</strong>
+          <span>Make sure the design and dimensions suit the room and the child.</span>
+        </div>
+
+        <div class="step-card">
+          <span class="step-number">2</span>
+          <strong>Check the mattress</strong>
+          <span>Use an appropriate mattress size and check compatibility with the bed.</span>
+        </div>
+
+        <div class="step-card">
+          <span class="step-number">3</span>
+          <strong>Plan the layout</strong>
+          <span>Leave sensible space around the bed for everyday movement.</span>
+        </div>
+
+        <div class="step-card">
+          <span class="step-number">4</span>
+          <strong>Keep it calm</strong>
+          <span>Use lighting and furniture choices that make the sleeping area feel comfortable.</span>
+        </div>
+      </div>
+
+      <h2>Leave enough space around the bed</h2>
+
+      <p>A comfortable sleep space should not feel cramped. Before positioning the bed, consider the location of wardrobes, doors, windows and other furniture.</p>
+
+      <p>There should be enough practical space for the child to get into bed, get dressed and move around the room without constantly navigating obstacles.</p>
+
+      <h2>Keep everyday storage practical</h2>
+
+      <p>Children's rooms can quickly become cluttered. Books, toys, clothing and school items all need somewhere to go.</p>
+
+      <p>Storage should be easy to access and appropriate for the way the room is used. If the child can easily reach and put away everyday belongings, maintaining the room can become simpler.</p>
+
+      <h2>Think about lighting</h2>
+
+      <p>Lighting can change the atmosphere of a child's bedroom. A combination of general room lighting and softer lighting can make the space more versatile.</p>
+
+      <p>Consider where the main light sources are positioned and whether they work well with the bed and other furniture.</p>
+
+      <h2>Do not overcrowd the sleeping area</h2>
+
+      <p>It can be tempting to fill a child's bedroom with furniture, decorations and storage. However, too much furniture can make a room feel smaller and harder to use.</p>
+
+      <p>Prioritise the essentials first, then add pieces that genuinely improve the room.</p>
+
+      <h2>Make the room easy for the child to use</h2>
+
+      <p>A good children's bedroom should work for the child rather than only looking good in photographs.</p>
+
+      <p>Think about whether the child can comfortably access their clothes, books, toys and other everyday belongings. Practical design decisions can make the room easier to maintain.</p>
+
+      <div class="product-card">
+        <h3>One kids bed to compare</h3>
+        <p>The <strong>Vespa Kid Bed</strong> is one option to compare when looking at children's bed designs and planning the overall sleeping space.</p>
+        <a href="https://everlybeds.co.uk/products/rosy-toddler-bed-copy" target="_blank" rel="noopener">View the kids bed</a>
+      </div>
+
+      <div class="cta-box">
+        <h2>Explore children's beds</h2>
+        <p>Compare the available kids beds and consider which design, size and layout will work best for your child's bedroom.</p>
+        <a class="cta-button" href="https://everlybeds.co.uk/collections/kids-beds" target="_blank" rel="noopener">View Kids Beds</a>
+      </div>
+
+      <h2>Simple comfort checklist</h2>
+
+      <ul>
+        <li>Choose a bed that fits the room properly.</li>
+        <li>Check that the mattress is compatible with the bed.</li>
+        <li>Leave enough space around the sleeping area.</li>
+        <li>Keep everyday storage accessible.</li>
+        <li>Avoid overcrowding the room with unnecessary furniture.</li>
+        <li>Use lighting that supports a calm bedroom environment.</li>
+        <li>Consider how the room will work as the child grows.</li>
+      </ul>
+
+      <div class="related-links">
+        <h2>More kids bed guides</h2>
+        <p>Explore more practical ideas for choosing and arranging a child's bed.</p>
+        <a href="do-kids-beds-with-storage-make-sense.html">Do Kids Beds With Storage Make Sense?</a><br>
+        <a href="which-kids-bed-works-best-in-a-narrow-room.html">Which Kids Bed Works Best in a Narrow Room?</a><br>
+        <a href="kids-beds.html">Back to Kids Bed Guides</a>
+      </div>
+
+    </article>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+
+</body>
+</html>
